@@ -169,9 +169,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-
-# Ignore everything in hdt
-data/* 
-# Keep hdt folder
-!data/.gitkeep
