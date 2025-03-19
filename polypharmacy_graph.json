@@ -1,0 +1,105 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Temazepam"
+        },
+        {
+            "id": "sildenafil"
+        },
+        {
+            "id": "POLYETHYLENE GLYCOL 3350"
+        },
+        {
+            "id": "Hydroxychloroquine"
+        },
+        {
+            "id": "Estradiol"
+        },
+        {
+            "id": "Clotrimazole"
+        },
+        {
+            "id": "Bumetanide"
+        },
+        {
+            "id": "Oxytocin"
+        },
+        {
+            "id": "Acetaminophen"
+        },
+        {
+            "id": "glycopyrronium"
+        },
+        {
+            "id": "Tamoxifen"
+        },
+        {
+            "id": "Prednisone"
+        },
+        {
+            "id": "Etanercept"
+        },
+        {
+            "id": "tolterodine"
+        },
+        {
+            "id": "Oxazepam"
+        },
+        {
+            "id": "Sodium Chloride"
+        }
+    ],
+    "links": [
+        {
+            "adverseEvent": "Convulsion",
+            "PRR": 0.434783,
+            "source": "Temazepam",
+            "target": "sildenafil"
+        },
+        {
+            "adverseEvent": "Feeling abnormal",
+            "PRR": 0.5,
+            "source": "POLYETHYLENE GLYCOL 3350",
+            "target": "Hydroxychloroquine"
+        },
+        {
+            "adverseEvent": "Vomiting",
+            "PRR": 0.434783,
+            "source": "Estradiol",
+            "target": "Clotrimazole"
+        },
+        {
+            "adverseEvent": "Death",
+            "PRR": 1.42857,
+            "source": "Bumetanide",
+            "target": "Oxytocin"
+        },
+        {
+            "adverseEvent": "Headache",
+            "PRR": 1.66667,
+            "source": "Acetaminophen",
+            "target": "glycopyrronium"
+        },
+        {
+            "adverseEvent": "Disease progression",
+            "PRR": 1.0,
+            "source": "Tamoxifen",
+            "target": "Prednisone"
+        },
+        {
+            "adverseEvent": "Erythema",
+            "PRR": 0.833333,
+            "source": "Etanercept",
+            "target": "tolterodine"
+        },
+        {
+            "adverseEvent": "Nausea",
+            "PRR": 0.555556,
+            "source": "Oxazepam",
+            "target": "Sodium Chloride"
+        }
+    ]
+}
